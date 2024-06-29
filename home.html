@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <title>chrome app - home</title>
+  </head>
+  <body>
+    <div class="background">
+      <div class="main">
+        <div class="section">
+          <div class="time">
+            <span class="time__date"></span>
+            <span class="time__day">00:00</span>
+          </div>
+          <div class="weather">
+            <h1 class="weather__title">Today's Weather!</h1>
+            <div class="weather__data">
+              <img class="weather__today" />
+              <span class="weather__position"></span>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <h1 class="section__title">To Do List</h1>
+          <ul class="section__list"></ul>
+          <form id="todo-list">
+            <input
+              class="todo-list__text"
+              type="text"
+              placeholder="write Todo List"
+            />
+            <button class="todo-list__add">✅</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="/js/home.js"></script>
+    <script src="/js/wheather.js"></script>
+    <script src="/js/clock.js"></script>
+    <script src="/js/todolist.js"></script>
+    <script src="/js/background.js"></script>
+  </body>
+</html>
