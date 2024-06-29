@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "gh-pages": "^6.1.1"
+  },
+  "deploy":"gh-pages-d build", "predeploy":"npm run build",
+
+  "homepage": "https://Anchangwan.github.io/todolist"
+
+}
