@@ -1,8 +1,8 @@
 @import "reset.css";
 
 /* screens  */
-@import "./styles/screens/login.css";
-@import "./styles/screens/main.css";
+@import "/styles/screens/login.css";
+@import "/styles/screens/main.css";
 
 /* components */
-@import "./styles/components/main.css";
+@import "/styles/components/main.css";
