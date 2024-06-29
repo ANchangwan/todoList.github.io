@@ -7,7 +7,7 @@ const ToDos_key = "todos";
 
 let toDos = [];
 
-const savedToDos = () => {
+const savedToDos = (toDos) => {
   localStorage.setItem(ToDos_key, JSON.stringify(toDos));
 };
 
