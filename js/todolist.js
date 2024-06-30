@@ -46,7 +46,7 @@ function handleAdd(e) {
 listAdd.addEventListener("click", handleAdd);
 
 const savedToDo = localStorage.getItem(ToDos_key);
-console.log(savedToDo);
+
 if (savedToDo !== null) {
   const parsedToDos = JSON.parse(savedToDo);
   toDos = parsedToDos;

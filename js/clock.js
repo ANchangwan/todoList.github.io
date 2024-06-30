@@ -5,12 +5,12 @@ function handleClock() {
   let date = new Date();
 
   let year = date.getFullYear();
-  let month = date.getDay();
+  let month = date.getMonth();
   let day = date.getDate();
 
   let hours = date.getHours();
   let second = date.getSeconds();
-
+  console.log(month);
   timeDate.innerText = `${year}년 ${month}월 ${day}일`;
   days.innerText = `${hours} : ${second}`;
 }

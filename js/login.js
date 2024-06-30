@@ -3,6 +3,9 @@ const inputButton = document.querySelector(".form .form__button");
 
 function handleSubmit(e) {
   e.preventDefault();
+  if (localStorage.getItem("name")) {
+    window.location.href = "home.html";
+  }
   if (!inputValue.value) {
     confirm("입력해주세요!");
   }
